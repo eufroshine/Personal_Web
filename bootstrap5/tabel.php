@@ -3,6 +3,72 @@
 <head>
   <!-- DataTables CSS -->
   <link href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap CSS (optional, for layout) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #0d0d0d; /* Dark cyberpunk background */
+      color: #ffffff;
+      font-family: 'Orbitron', sans-serif;
+      overflow-x: hidden;
+    }
+
+    h2 {
+      color: #00e5ff; /* Neon cyan */
+      text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      background-color: rgba(25, 25, 25, 0.9); /* Semi-transparent dark background */
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    th {
+      background-color: #1a1a1a; /* Darker header */
+      color: #ff1c8d; /* Neon pink */
+      text-shadow: 0 0 5px #ff1c8d;
+    }
+
+    td {
+      background-color: rgba(25, 25, 25, 0.7); /* Dark background for table cells */
+      color: #ffffff; /* White text */
+      border-bottom: 1px solid #333; /* Border between rows */
+    }
+
+    tr:hover td {
+      background-color: rgba(0, 229, 255, 0.2); /* Light cyan on row hover */
+      color: #00e5ff; /* Change text color to cyan on hover */
+    }
+
+    /* DataTables pagination and other controls */
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+      background: #00e5ff;
+      color: #0d0d0d;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin: 0 2px;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+      background: #ff1c8d;
+      color: #ffffff;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+      background: #ff1c8d;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
 <div class="container mt-5">
