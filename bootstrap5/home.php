@@ -92,7 +92,7 @@
         <!-- Contact Section -->
         <div class="col-md-4 text-center">
           <img src="image/contact.jpeg" class="rounded-circle mb-3" alt="Kontak">
-          <h3>Kontak</h3>
+          <h3>Contact</h3>
           <p>Ingin bekerja sama atau sekadar berbicara? Jangan ragu untuk menghubungi saya. Saya senang mendengar dari Anda!</p>
           <a href="?page=contact" class="btn btn-primary">Hubungi Saya</a>
         </div>
