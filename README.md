@@ -4,4 +4,13 @@
 
 # Tampak Data Tables
 
-![Screenshot (67)](https://github.com/user-attachments/assets/88009952-9253-4a2e-85e5-3502b87c8cc5)
+![Screenshot (70)](https://github.com/user-attachments/assets/fcc9a35e-215d-4707-8fee-d8d8f67ad6d7)
+
+# Tampak About Me
+
+![Screenshot (68)](https://github.com/user-attachments/assets/feab09de-228a-4c4f-8ae4-aa977b5c542a)
+
+# Tampak Contact
+
+![Screenshot (69)](https://github.com/user-attachments/assets/3aa433d3-8738-4b04-96ae-dc5cc355cee6)
+
